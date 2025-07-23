@@ -1,1 +1,135 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>rusrogerdev</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+    }
+
+    h1 {
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .proyectos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1f1f1f;
+      color: white;
+      margin-top: 3rem;
+    }
+
+    .enlaces {
+        display: flex;
+        justify-content: center;
+        gap: 2rem; /* espacio entre los enlaces */
+        margin-top: 1rem;
+        }
+
+        .enlaces a {
+        color: #00f;
+        text-decoration: none;
+        font-weight: bold;
+        }
+
+        .enlaces a:hover {
+        text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="image/hades2.jpg" alt="Mi foto" />
+    <h1>Roger Rus Moreno</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="enlaces">
+        <a href="https://itch.io" target="_blank">ITCH.IO</a>
+        <a href="https://github.com" target="_blank">GITHUB</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel justo sed elit consequat lacinia. Duis nec nunc id elit pulvinar congue.</p>
+
+    <div class="skills"></div>
+    <h2>Proyectos</h2>
+    <div class="proyectos">
+      <div class="card">
+        <h3>Proyecto 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut cursus ligula.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel hendrerit risus.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non finibus justo.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut cursus ligula.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 5</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel hendrerit risus.</p>
+      </div>
+      <div class="card">
+        <h3>Proyecto 6</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non finibus justo.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Roger Rus Moreno
+  </footer>
+</body>
+</html>
